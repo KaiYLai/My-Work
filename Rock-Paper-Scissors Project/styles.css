@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.move-icon {
+    height: 50px;
+}
+
+.move-button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.score {
+    margin: 30px auto;
+}
+
+.resetScore-button, .autoPlay-button, .resetConfirm-button {
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.resetConfirm-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
